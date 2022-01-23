@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://jonthan.ahlstrand.es">Jonthans homepage</a>
         </h1>
 
         <p className={styles.description}>
@@ -49,6 +49,9 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+        </div>
+        <div>
+          Fun stuff: <a href="/roman">Roman numbers</a>
         </div>
       </main>
 
