@@ -7,7 +7,6 @@ export default function convertToRoman(decimal = 0) {
     handleTens(Math.floor((decimal % 100) / 10)) +
     handleSingels(decimal % 10)
   );
-  // return handleSingels(decimal % 10);
 }
 
 function handleSingels(decimal = 0) {
