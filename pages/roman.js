@@ -5,7 +5,7 @@ import romanConverter from "../controllers/roman";
 
 export default function Roman() {
   function decimalToRoman(event) {
-    const decimal = event.target.value;
+    const decimal = parseInt(event.target.value, 10);
 
     setResult(romanConverter(decimal));
   }

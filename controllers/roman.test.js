@@ -36,4 +36,22 @@ describe("convertToRoman", () => {
 
     expect(result).toEqual("IX");
   });
+
+  it("should return XL for 50", () => {
+    const result = convertToRoman(50);
+
+    expect(result).toEqual("L");
+  });
+
+  it("should return CI for 101", () => {
+    const result = convertToRoman(101);
+
+    expect(result).toEqual("CI");
+  });
+
+  it("should return CLXI for 169", () => {
+    const result = convertToRoman(169);
+
+    expect(result).toEqual("CLXIX");
+  });
 });
